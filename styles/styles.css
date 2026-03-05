@@ -38,9 +38,19 @@ h1 {
 
 h2 {
   margin-top: 150px;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
+  text-align: left;
+  letter-spacing: -0.03em;
+}
+
+.h3 {
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 100%;
   text-align: left;
   letter-spacing: -0.03em;
 }
@@ -56,14 +66,66 @@ p.studion {
   letter-spacing: -0.03em;
 }
 
-a {
-  font-size: 20px;
-  text-decoration: none;
-  letter-spacing: -0.03em;
+.uslugi {
   margin-top: 30px;
-  display: inline-block;
-  padding: 20px 40px;
+  height: 67px;
+  width: 255px;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: #AD1818;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   border-radius: 5px;
+  border-color: #AD1818;
+}
+
+.uslugi:hover {
+  background-color: #ffffff;
+  color: #AD1818;
+  border-color: #AD1818;
+}
+
+.images-projects {
+  height: 548px;
+  width: 1150px;
+  margin-bottom: 90px;
+}
+
+.text {
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  padding-top: 15px;
+}
+
+.podrobnee {
+  font-size: 20px;
+  color:#AD1818;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  padding-top: 15px; 
+  padding-left: 2px;
+}
+
+.btn {
+  height: 153px;
+  width: 1150px;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: #ffffff;
+  color: #AD1818;
+  border-color: #AD1818;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.btn:hover {
   background-color: #AD1818;
   color: #ffffff;
 }
