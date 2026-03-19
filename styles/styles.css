@@ -166,9 +166,46 @@ p.studion {
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 5px;
+  margin-bottom: 151px;
 }
 
 .btn:hover {
   background-color: #AD1818;
   color: #ffffff;
+}
+
+.container-servis {
+  background-color: black;
+  width: 1400px;
+  padding-bottom: 54px;
+  margin: 0 auto;
+}
+
+.text-servis {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  padding-top: 151px;
+  padding-left: 131px;
+  padding-bottom: 34px;
+}
+
+.container-img {
+  height: 326px;
+  width: 1149px;
+  margin: 0 auto;
+}
+
+.img-servis {
+  height: 270px;
+  width: 1149px;
+}
+
+.servis-img-text {
+  padding-top: 21px;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
