@@ -220,7 +220,7 @@ p.studion {
 
 .section {
   height: 717px;
-  background-image: url(/resources/Rectangle10.png);
+  background-image: url(../resources/Rectangle10.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
