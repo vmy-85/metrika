@@ -181,6 +181,10 @@ p.studion {
   margin: 0 auto;
 }
 
+.container-servis:nth-of-type(5) {
+  padding-bottom: 150px;
+}
+
 .text-servis {
   font-weight: 400;
   font-size: 18px;
@@ -191,11 +195,14 @@ p.studion {
   padding-bottom: 34px;
 }
 
+
 .container-img {
   height: 326px;
   width: 1149px;
   margin: 0 auto;
 }
+
+
 
 .img-servis {
   height: 270px;
@@ -208,4 +215,30 @@ p.studion {
   font-size: 30px;
   letter-spacing: -0.03em;
   color: #fff;
+}
+
+
+.section {
+  height: 717px;
+  background-image: url(/resources/Rectangle\ 10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1400px; /* Добавлена фиксированная ширина как у черного блока */
+  margin: 0 auto; /* Центрирование как у черного блока */
+  position: relative;
+  }
+
+
+.container-ful {
+height: 82px;
+width: 443px;
+position: absolute; left: 125px; bottom: 60px;
+}
+
+.text-ful {
+font-weight: 400;
+font-size: 30px;
+letter-spacing: -0.03em;
+color: #fff;
 }
