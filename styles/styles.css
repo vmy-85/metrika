@@ -46,7 +46,6 @@ body{
 
 .nav-link:hover {
   opacity: 0.5;
-  color: #AD1818;
 }
 
 a {
@@ -220,7 +219,7 @@ p.studion {
 
 .section {
   height: 717px;
-  background-image: url('../resources/Rectangle10.png');
+  background-image: url(/resources/Rectangle\ 10.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -241,4 +240,86 @@ font-weight: 400;
 font-size: 30px;
 letter-spacing: -0.03em;
 color: #fff;
+}
+
+.contact {
+width: 1400px;
+margin: 0 auto;
+}
+
+.tel {
+margin-top: 32px;
+margin-left: 125px;
+margin-bottom: 30px;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -0.03em;
+}
+
+.mail {
+margin-left: 125px;
+margin-bottom: 150px;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: -0.03em;
+opacity: 0.5;
+text-decoration: underline;
+}
+
+.text-contact {
+  margin-top: 186px;
+  margin-left: 124px;
+}
+
+.text-contact::before {
+  content: '';
+  display: block;
+  padding-top: 12px;
+  padding-left: 120px;
+  width: 24px;
+  height: 24px;
+  background-image: url(/resources/Vector.svg);
+  background-repeat: no-repeat;
+}
+
+.footer {
+  width: 1400px;
+  height: 229px;
+  margin: 0 auto;
+  background-color: #121212;
+}
+
+.footer-nav-link {
+  padding-top: 60px;
+  padding-bottom: 87px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link:hover {
+  opacity: 0.5;
+}
+
+.footer-link {
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #fff;
+padding-right: 55px;
+}
+
+.footer-nav-link :nth-last-child(1) {
+  padding-right: 0px;
+}
+
+.text-footer {
+  text-align: center;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: -0.03em;
+color: #fff;
+opacity: 0.5;
 }
